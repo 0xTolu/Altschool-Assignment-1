@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="styles.css" type="text/css"/>
+  <link rel="stylesheet" href="responsive.css">
+   <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Montserrat:wght@500;900&family=Ubuntu&display=swap" rel="stylesheet"/>
+</head>
+
+<body>
+  <main class="	container">
+    <header>
+      <h1 class="logo"> <a href="home.html"> Home </a> </h1>
+      <input type="checkbox" name="nav-toggle" 
+      id="nav-toggle" 
+      class="nav-toggle">
+        <nav>
+            <ul>
+            <li> <a href="home.html">About Me </a></li>
+            <li> <a href="registration.html"> Register </a> </li>
+            <li> <a href="loginpage.html"> Login </a> </li>
+            <li> <a href="contact.html"> Contact </a> </li>
+            <li> <a href="calculator.html"> Calculator </a> </li>
+            </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
+    </header>
+ 
+  <div class="contact-pg">
+    <h1> Contact Me </h1>
+  <form action="mailto:shittutolulope20@gmail.com" method="post">
+   <label for="fname"></label>
+   <input type = "text" placeholder ="Full Name" class="contact-form"> <br>
+   <labelfor="email"></label>
+   <input type = "text" placeholder ="Email" class="contact-form"> <br>
+   <label for="msg"></label>
+   <textarea class="contact-form" placeholder="Message" name="" id="message-form" cols="50" rows="15"></textarea>  <br>
+  <label for="priority"> </label>
+  <select name="Priority" class= "contact-form">
+  <option value="" selected disabled>Priority</option>
+  <option value="Frontend">Frontend</option>
+  <option value="Backend">Backend</option>
+  <option value="Cloud">Cloud Engineering</option>
+  <option value="Product">Product Design </option>
+  </select>   
+  </form>
+  <button id="btn-style"> Submit </button>
+</div>
+</main>
+</body>
+
+</html>

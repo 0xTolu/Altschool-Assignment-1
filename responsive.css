@@ -1,0 +1,112 @@
+ /* MEDIA QUERIES  */
+@media screen and (min-width: 913px) {
+    .nav-toggle-label {
+    display: none;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: 1fr auto minmax(700px, 3fr) 1fr;
+      border-bottom: 2px solid white;
+    }
+
+    .logo {
+      grid-column: 1/2;
+      margin-top: 10px;
+      color: white;
+    }
+    
+    nav {
+      all: unset;
+      grid-column: 3/5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+
+    nav a {
+      opacity: 1;
+    }
+
+    nav ul {
+      display: flex; 
+    } 
+
+    nav li {
+      margin-top: 20px;
+    }
+}
+
+ @media (max-width: 912px) {
+  
+    .form-page {
+      width: 80%;
+    }
+
+    .reg-form-header {
+      font-size: medium;
+    }
+
+    .reg-form-inputs {
+      width: 100%;
+    }
+
+    .login-form {
+      width: 250px;
+    }
+
+    .contact-pg {
+      width: 100%;
+      height: 100vh;
+      padding-left: 10px;
+    }
+
+    .contact-form {
+      width: 85%;
+    }
+
+    .section-container {
+    width: 100%;
+    padding: 5em 2.5em 0 2.5em; 
+    }
+  }
+
+  @media (min-width: 913px) and (max-width: 1024px) {
+    .contact-pg {
+      height: 85vh;
+    }
+  }
+  @media (max-width: 281px) {
+    #calculator-pg {
+      padding-left: 20px;
+    }
+
+    #equals-btn {
+      width: 58%;
+    }
+
+    .calc-display {
+      width: 89%;
+    }
+  }
+
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    .section-container {
+      padding: 5em 2.5em 0 7em; 
+    }
+    .contact-pg {
+      padding: 0;
+      padding-left: 1em;
+    }
+  }
+
+  @media (min-width: 1280px) and (max-width:1285px) {
+    .section-container {
+      padding: 5em 2.5em 0 5em; 
+    }
+    .contact-pg {
+      padding: 0;
+      padding-left: 3.3em;
+    }
+  }

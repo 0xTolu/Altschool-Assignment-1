@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Registration</title>
+  <!-- CSS link -->
+  <link rel="stylesheet" href="styles.css" type="text/css" />
+  <link rel="stylesheet" href="responsive.css">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Montserrat:wght@500;900&family=Ubuntu&display=swap" 
+  rel="stylesheet"/>
+</head>
+
+<body>
+ 
+  <header>
+    <h2 class="logo"> <a href="home.html"> Home </a> </h2>
+    <input type="checkbox" name="nav-toggle" 
+    id="nav-toggle" 
+    class="nav-toggle">
+      <nav>
+          <ul>
+          <li> <a href="home.html">About Me </a></li>
+          <li> <a href="registration.html"> Register </a> </li>
+          <li> <a href="loginpage.html"> Login </a> </li>
+          <li> <a href="contact.html"> Contact </a> </li>
+          <li> <a href="calculator.html"> Calculator </a> </li>
+          </ul>
+      </nav>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+  </header>
+
+<main class="container">
+
+ <form class="section-container" action="mailto:shittutolulope20@gmail.com" 
+  method="post" 
+  class="form-page">
+  <h1 class="reg-form-header"> Kindly fill this form to register.</h1>
+  <div class="reg-form">
+   <label for="fname"></label>
+   <input class="reg-form-inputs" type = "text" 
+   placeholder ="First Name"  required> 
+  </div>
+  <div class="reg-form">
+   <label for="lstname"></label>
+   <input  class="reg-form-inputs" type = "text" 
+   placeholder ="Last Name" required> 
+  </div> 
+  <div  class="reg-form">
+   <label for="phone"></label>
+   <input  class="reg-form-inputs" type = "text" 
+   placeholder ="Phone Number" required>  
+  </div>
+  <div  class="reg-form">
+  <label for="gender"></label>
+  <select class="reg-form-inputs" name="gender" id="gender" required>
+  <option value="" selected disabled required> Gender</option>
+  <option value="male">Male</option>
+  <option value="female">Female</option>
+  <option value="prefer-not">Prefer Not to say</option>
+  </select>
+  </div>
+  <div  class="reg-form">
+   <label for="country"></label>
+   <select class="reg-form-inputs" name="country" id="country" required>
+    <option value="" selected disabled>Country</option>
+    <option value="Nigeria">Nigeria</option>
+    <option value="Canada">Canada</option>
+    <option value="United States">United States</option>
+    </select>
+    </div>
+    <div class="reg-form">
+    <label for="state"></label>
+    <select class="reg-form-inputs" name="state" id="state" required>
+      <option value="" selected disabled>State</option>
+      <option value="Lagos">Lagos</option>
+      <option value="Abuja">Abuja</option>
+      <option value="Ibadan">Ibadan</option>
+    </select> 
+  </div>
+  <div class="reg-form">
+    <label for="username"></label>
+   <input  class="reg-form-inputs" type ="text" 
+   placeholder ="Username" required>
+    <label for="password"></label>
+   <input  class="reg-form-inputs" type = "password" 
+   placeholder ="Password" required>
+   <label for="password" class="form-labels"></label>
+   <input class="reg-form-inputs" type = "password" 
+   placeholder ="Confirm Password" required> 
+  </div>
+   <button id="btn-style"> Submit </button>
+  </form>
+</main>
+</body>
+
+</html>

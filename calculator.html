@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Montserrat:wght@500;900&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+    <header>
+        <h1 class="logo"> <a href="home.html"> Home </a> </h1>
+        <input type="checkbox" name="nav-toggle" 
+        id="nav-toggle" 
+        class="nav-toggle">
+          <nav>
+              <ul>
+              <li> <a href="home.html">About Me </a></li>
+              <li> <a href="registration.html"> Register </a> </li>
+              <li> <a href="loginpage.html"> Login </a> </li>
+              <li> <a href="contact.html"> Contact </a> </li>
+              <li> <a href="calculator.html"> Calculator </a> </li>
+              </ul>
+          </nav>
+          <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+          </label>
+      </header>
+    <main class="container">
+    <div id="calculator-pg">
+    <form name="calculator" class="calc-inputs">
+        <input type="text" name="ans" value="" class="calc-display"> 
+        <input type="button" value="1" class="calc-buttons">
+        <input type="button" value="2" class="calc-buttons">
+        <input type="button" value="3" class="calc-buttons">
+        <input type="button" value="+" class="calc-buttons"> 
+        <input type="button" value="4" class="calc-buttons"> 
+        <input type="button" value="5" class="calc-buttons">
+        <input type="button" value="6" class="calc-buttons">
+        <input type="button" value="-" class="calc-buttons"> 
+        <input type="button" value="7" class="calc-buttons">
+        <input type="button" value="8" class="calc-buttons">
+        <input type="button" value="9" class="calc-buttons">
+        <input type="button" value="*" class="calc-buttons"> 
+        <input type="button" value="." class="calc-buttons">
+        <input type="button" value="0" class="calc-buttons">
+        <input type="reset" value="C" class="calc-buttons">
+        <input type="button" value="/" class="calc-buttons"> 
+        <input type="button" value="=" id="equals-btn" class="calc-buttons">          
+    </form>
+    </div>      
+    </main>    
+</body>
+</html> 
