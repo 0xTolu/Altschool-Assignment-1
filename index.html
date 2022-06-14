@@ -1,1 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>About Me</title>
+  <link rel="stylesheet" href="styles.css" type="text/css"/>
+  <link rel="stylesheet" href="responsive.css">
+   <link href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Montserrat:wght@500;900&family=Ubuntu&display=swap" rel="stylesheet"/>
+</head>
 
+<body>
+  <main class="container">
+<!-- NAV BAR -->
+    <header>
+      <h1 class="logo"> <a href="home.html"> Home </a> </h1>
+      <input type="checkbox" name="nav-toggle" 
+      id="nav-toggle" 
+      class="nav-toggle">
+        <nav>
+            <ul>
+            <li> <a href="#about-me">About Me </a></li>
+            <li> <a href="registration.html"> Register </a> </li>
+            <li> <a href="loginpage.html"> Login </a> </li>
+            <li> <a href="#contact-pg"> Contact </a> </li>
+            <li> <a href="calculator.html"> Calculator </a> </li>
+            </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
+    </header>
+
+<!-- SECTION BELOW NAV BAR -->
+
+  <section class="section-container">
+  <h1 id="main-heading"> Shittu Tolulope </h1>
+  <span id="#about-me">
+  <p> An aspiring software developer.  Self driven and highly motivated person. <br>
+     Commited to learning and working with a team to achieve desired results. </p> <br>
+ 
+  <p> It is my goal to become a world class web developer by learning the right skills and industry best practices. </p> <br>
+  </span>
+  <hr>
+  <h2> Education </h2>
+  <p>B.Tech (2016)</p>
+  <p>Secondary School Leaving Certificate (2008)</p>
+  <p>Primary School Leaving Certifcate (2002) </p>
+    <br>
+  <hr>
+  <h2> Work Experience </h2>
+ 
+  <p> Medical Representative at Tridem Pharma Limited (2021 - Present) </p>
+  <p> Medical Sales Representative at Naturesfield Limited (2020 - 2021) </p>
+  <p> Business Development Manager at Prepaid Medicare HMO (2020) </p>
+    <br>
+  <h2> Hobbies </h2>
+  <hr>
+  <br>
+ <p> My hobbies include: <br>
+  Music. <br> 
+  Movies. <br>  
+  Travel.  <br>
+  Sports.
+</p>
+</section>
+<div class  ="contact-pg"> 
+  <h1> Contact Me </h1>
+<form>
+ <label for="fname"></label>
+ <input type = "text" placeholder ="Full Name" class="contact-form"> <br>
+ <label for="email"></label>
+ <input type = "text" placeholder ="Email" class="contact-form"> <br>
+ <label for="msg"></label>
+ <textarea class="contact-form" placeholder="Message" 
+ name="" id="message-form" cols="50" rows="15"></textarea>
+<label for="priority"> </label>
+<select name="Priority" class= "contact-form">
+<option value="" selected disabled>Priority</option>
+<option value="Frontend">Frontend</option>
+<option value="Backend">Backend</option>
+<option value="Cloud">Cloud Engineering</option>
+<option value="Product">Product Design </option>
+</select>   
+</form>
+<button id="btn-style"> Submit </button>
+</div> 
+</main>
+</body>
+
+</html>
